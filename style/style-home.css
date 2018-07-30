@@ -1,0 +1,60 @@
+@charset "UTF-8"
+
+
+
+
+
+
+a {
+	color: white;
+	font-family: trebuchet, arial;
+}
+
+
+
+.home {
+	font-size: 15px;
+	list-style: none;
+	text-align: center;
+	padding-left: 70px;
+	padding-right: 70px;
+	
+}
+
+
+.home li{
+	background-color: black;
+	float: left;
+	color: white;
+	list-style: none;
+	padding: 1px 1px;
+}
+
+.home li a{
+	text-decoration: none;
+	color: white;
+	padding-left: 100px;
+	padding-right: 100px;
+	opacity: 0.6;
+}
+
+.home li:hover{
+	background-color: black;
+	opacity: 0.8;
+}
+
+img:hover {
+transform: scale(1.1);
+}
+
+frame.principal{
+	background-image: url(../imagens/background.jpg) ;
+	background-position: left;
+}
+
+.rodape {
+	color: white;
+	font-family: arial;
+	text-align: center;
+}
+

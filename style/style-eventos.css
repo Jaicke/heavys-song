@@ -1,0 +1,40 @@
+@charset "UTF-8"
+
+
+
+frame.principal{
+	background-image: url(../imagens/background.jpg) ;
+	background-position: left;
+}
+
+table{
+	color: white;
+	font-family: Trebuchet, arial;
+
+}
+
+.eventos{
+	text-decoration: none;;
+	color: white;
+	font-family: Trebuchet, arial;
+}
+
+tr:hover{
+	background-color: white;
+	color: black;
+	opacity: 0.7;
+
+}
+#leitura {
+	background-color: black;
+	opacity: 0.8;
+	font-family: Trebuchet, arial;
+	text-align: center;
+	padding: 30px 30px;
+}
+.rodape {
+	color: white;
+	font-family: arial;
+	text-align: center;
+	
+}

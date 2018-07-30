@@ -1,0 +1,62 @@
+@charset "UTF-8"
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+	font-family: trebuchet, arial;
+	background-image: url(../imagens/background-cabec.jpg);
+
+}
+
+.menu {
+	font-size: 20px;
+	list-style: none;
+	float:top;
+	text-align: center;
+	padding: 1px 1px;
+	align-self: center;
+	opacity: 0.85;
+}
+
+
+.menu li{
+	background-color: black;
+	float: left;
+	position: top;
+	border-right: 1px solid white;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 5px;
+	display:block;
+}
+
+.menu li:hover{
+	background-color: rgb(109,192,174);
+	
+}
+
+.menu li ul {
+	position: absolute;
+	background-color: black;
+	padding: 3px 10px;
+	list-style: none;
+	display: none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+	display: block;
+
+}
+
+.menu li ul li {
+	border: 1px;
+	width: 150px;
+}
+

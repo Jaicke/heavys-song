@@ -1,0 +1,53 @@
+@charset "UTF-8"
+
+body { 
+	font-family: Trebuchet,verdana, arial; 
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+legend {
+	font-size: 20px;
+	padding-bottom: 20px;
+
+}
+
+.botao {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	border-color: rgb(109,192,174);
+	border-radius: 12px;
+
+}
+
+
+body.white {
+	color: white;
+	font-family: Trebuchet, arial;
+	
+	
+}
+frame.principal{
+	background-image: url(../imagens/background.jpg) ;
+	background-position: left;
+}
+
+
+#leitura {
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	font-family: Trebuchet, arial;
+	 padding: 10px 20px;
+	text-align: center;
+}
+
+
+
+
+
